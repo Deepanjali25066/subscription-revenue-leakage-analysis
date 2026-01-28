@@ -1,13 +1,13 @@
 # Subscription Revenue Leakage Analysis (SQL Project)
 
-## 📌 Overview
+## Overview
 This project is an end-to-end SQL-based business case study focused on identifying **revenue leakage and customer churn** in a subscription-based business model. Using PostgreSQL, the analysis compares expected subscription revenue with actual payment data to uncover operational and retention-related issues.
 
 The project demonstrates how SQL can be used not just for querying data, but for **business problem-solving and decision support**.
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 - Calculate expected revenue from active subscriptions
 - Compare expected revenue with actual payments received
 - Identify revenue leakage at a monthly level
@@ -17,7 +17,7 @@ The project demonstrates how SQL can be used not just for querying data, but for
 
 ---
 
-## 🗂️ Database Schema
+## Database Schema
 The analysis is based on a relational database with the following tables:
 
 - **customers** – customer demographics and signup data  
@@ -29,7 +29,7 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - PostgreSQL 16
 - SQL (CTEs, joins, aggregations, filters)
 - `psql` (PostgreSQL CLI)
@@ -37,7 +37,7 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 📊 Key Analyses Performed
+##  Key Analyses Performed
 
 ### 1. Expected vs Actual Revenue
 - Expected revenue calculated from active subscriptions and plan pricing
@@ -58,7 +58,7 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 - Revenue leakage was driven primarily by **failed payments and billing timing mismatches**
 - No active customers were completely unpaid, indicating system-level issues rather than customer avoidance
 - Failed payments occurred across multiple plans and regions
@@ -66,7 +66,7 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 💡 Business Recommendations
+##  Business Recommendations
 - Improve payment retry and failure handling mechanisms
 - Introduce proactive payment reminders before cancellations
 - Closely monitor failed payments for high-value plans
@@ -74,17 +74,17 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 # Subscription Revenue Leakage Analysis (SQL Project)
 
-## 📌 Overview
+##  Overview
 This project is an end-to-end SQL-based business case study focused on identifying **revenue leakage and customer churn** in a subscription-based business model. Using PostgreSQL, the analysis compares expected subscription revenue with actual payment data to uncover operational and retention-related issues.
 
 The project demonstrates how SQL can be used not just for querying data, but for **business problem-solving and decision support**.
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 - Calculate expected revenue from active subscriptions
 - Compare expected revenue with actual payments received
 - Identify revenue leakage at a monthly level
@@ -94,7 +94,7 @@ The project demonstrates how SQL can be used not just for querying data, but for
 
 ---
 
-## 🗂️ Database Schema
+## Database Schema
 The analysis is based on a relational database with the following tables:
 
 - **customers** – customer demographics and signup data  
@@ -106,7 +106,7 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - PostgreSQL 16
 - SQL (CTEs, joins, aggregations, filters)
 - `psql` (PostgreSQL CLI)
@@ -114,7 +114,7 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 📊 Key Analyses Performed
+##  Key Analyses Performed
 
 ### 1. Expected vs Actual Revenue
 - Expected revenue calculated from active subscriptions and plan pricing
@@ -135,7 +135,7 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 - Revenue leakage was driven primarily by **failed payments and billing timing mismatches**
 - No active customers were completely unpaid, indicating system-level issues rather than customer avoidance
 - Failed payments occurred across multiple plans and regions
@@ -143,7 +143,7 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 - Improve payment retry and failure handling mechanisms
 - Introduce proactive payment reminders before cancellations
 - Closely monitor failed payments for high-value plans
@@ -151,11 +151,11 @@ Synthetic but realistic data was created to simulate real-world SaaS scenarios.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 sql/ → SQL scripts for schema, data insertion, and analysis
 insights/ → Final business insights and recommendations
 
 ---
 
-## 🚀 Outcome
+##  Outcome
 This project demonstrates strong SQL fundamentals, analytical thinking, and the ability to translate data into meaningful business insights. It is suitable for showcasing skills required in **Data Analyst and Business Analyst** roles.
